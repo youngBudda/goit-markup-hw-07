@@ -40,9 +40,6 @@
     position: relative;
     padding-left: 2.5rem;
     padding-top: 5rem;
-    padding-bottom: 2.5rem;
-    width: 100vw;
-    height: 100vh;
   }
   .mobile-menu__close-btn {
     position: absolute;
@@ -101,13 +98,6 @@
   }
   .mobile-menu__contacts-list {
     margin-bottom: 3rem;
-  }
-  .flex-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 70%;
   }
 }
 @media screen and (min-width: 768px) {
