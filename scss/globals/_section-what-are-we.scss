@@ -1,0 +1,26 @@
+.what-are-we {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .what-are-we {
+    display: block;
+    padding-bottom: 120px;
+  }
+  .what-are-we__list {
+    display: flex;
+    gap: 24px;
+  }
+}
+.what-are-we__title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--text-color);
+}
+.what-are-we__item {
+  width: calc((100% - 3 * 16px) / 3);
+}
