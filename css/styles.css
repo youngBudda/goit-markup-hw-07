@@ -270,7 +270,7 @@ a:active {
   }
 } */
 @media screen and (max-width: 768px) {
-  .mobile-menu .is-open {
+  .mobile-menu.is-open {
     pointer-events: initial;
     opacity: 1;
     visibility: visible;
