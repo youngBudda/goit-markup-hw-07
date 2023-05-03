@@ -804,6 +804,7 @@ section.hero {
   text-transform: capitalize;
   color: var(--text-color);
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .advantages__subtitle {
@@ -822,6 +823,9 @@ section.hero {
   }
   .portfolio__categories-list {
     justify-content: center;
+  }
+  .advantages__title {
+    text-align: start;
   }
 }
 @media screen and (min-width: 1440px) {
