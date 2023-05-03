@@ -57,9 +57,15 @@
   .customers__item {
     width: calc((100% - 2 * 24px) / 3);
   }
+  .container.customers__container {
+    padding: 0 6.75rem;
+  }
 }
 @media screen and (min-width: 1440px) {
   .customers__item {
     width: calc((100% - 5 * 24px) / 6);
+  }
+  .container.customers__container {
+    padding: 0 9.75rem;
   }
 }

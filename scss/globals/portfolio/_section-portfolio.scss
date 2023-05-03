@@ -93,6 +93,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin-bottom: 8px;
 }
 .portfolio__card-category {
   font-weight: 400;
@@ -109,9 +110,21 @@
   .portfolio__card-item {
     width: calc((100% - 48px) / 2);
   }
+  .portfolio {
+    padding: 4rem 0;
+  }
+  .portfolio__categories-list {
+    margin-bottom: 4rem;
+  }
 }
 @media screen and (min-width: 1440px) {
   .portfolio__card-item {
     width: calc((100% - 48px) / 3);
+  }
+  .portfolio {
+    padding: 6.25rem 0;
+  }
+  .portfolio__categories-list {
+    margin-bottom: 6.25rem;
   }
 }

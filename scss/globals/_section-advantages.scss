@@ -39,10 +39,20 @@
     flex-direction: row;
     gap: 24px;
   }
+  .portfolio__categories-list {
+    justify-content: center;
+  }
 }
+
 @media screen and (min-width: 1440px) {
+  .advantages__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+  }
   .flex {
     flex-direction: row;
+    gap: 24px;
   }
   .advantages__icon {
     display: flex;

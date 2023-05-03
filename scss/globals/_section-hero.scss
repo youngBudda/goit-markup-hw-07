@@ -67,6 +67,10 @@ section.hero {
       ),
       url(../images/hero/hero-tablet.jpg);
   }
+  .hero__title {
+    font-size: 3.5rem;
+    max-width: 496px;
+  }
 
   @media screen and (min-resolution: 2dppx) {
     .hero {
@@ -79,6 +83,11 @@ section.hero {
   }
   .hero__title {
     margin-bottom: 2.25rem;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .hero {
+    padding: 188px 0;
   }
 }
 @media screen and (min-width: 1440px) {
