@@ -93,6 +93,18 @@
 .modal__input:focus + .modal__input-svg {
   fill: var(--main-color);
 }
+.modal__input:hover + .modal__input-svg {
+  fill: var(--main-color);
+}
+.modal__input:hover {
+  border-color: var(--main-color);
+}
+.modal__textarea:hover {
+  border-color: var(--main-color);
+}
+.modal__close-btn {
+  cursor: pointer;
+}
 .modal__label.modal__label-span {
   display: block;
   margin-bottom: 0.25rem;
@@ -148,6 +160,9 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.modal__send-button:hover {
+  background-color: var(--hover-focus-one);
 }
 
 /* --------checkbox------- */
@@ -210,6 +225,7 @@
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 1.5rem;
+  align-items: center;
 }
 .modal__title {
   display: block;
