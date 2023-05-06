@@ -23,12 +23,12 @@
             <nav class="header__menu">
                 <ul class="header__menu-list">
                     <li class="header__menu-item">
-                        <a class="header__link" href="./index.html">
+                        <a class="header__link active-color actual-link" href="./index.html">
                             Studio
                         </a>
                     </li>
                     <li class="header__menu-item">
-                        <a class="header__link active-color actual-link" href="./portfolio.html">
+                        <a class="header__link" href="./portfolio.html">
                             Portfolio
                         </a>
                     </li>
@@ -320,6 +320,72 @@
                 </ul>
             </div>
         </section>
+        <div class="mobile-menu js-menu-container">
+            <button class="mobile-menu__close-btn js-close-menu">
+                <svg class="mobile-menu__close-svg" width="0.5rem" height="0.5rem">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="./index.html">
+                        Studio
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link color" href="./portfolio.html">
+                        Portfolio
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+            <address class="mobile-menu__address">
+                <ul class="mobile-menu__contacts-list">
+                    <li class="mobile-menu__phone-item">
+                        <a class="mobile-menu__phone-link" href="tel:+110001111111">+11 (000) 111-11-11
+                        </a>
+                    </li>
+                    <li class="mobile-menu__email-item">
+                        <a class="mobile-menu__email-link" href="mailto:info@devstudio.com">info@devstudio.com
+                        </a>
+                    </li>
+                </ul>
+            </address>
+            <ul class="social__list">
+                <li class="social__item">
+                    <a href="https://www.instagram.com/" class="social__link" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" class="social__svg">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://www.twitter.com/" class="social__link" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" class="social__svg">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://www.facebook.com/" class="social__link" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" class="social__svg">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://www.linkedin.com/" class="social__link" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" class="social__svg">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </main>
     <footer class="footer">
         <div class="container footer__container">
@@ -381,6 +447,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>

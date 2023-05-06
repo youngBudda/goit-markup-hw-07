@@ -1209,6 +1209,7 @@ section.hero {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  justify-content: center;
 }
 
 .portfolio__card-item {
